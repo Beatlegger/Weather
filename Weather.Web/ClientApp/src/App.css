@@ -1,0 +1,106 @@
+html {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+input[type=text] {
+    border: 0;
+    font-size: 1em;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+button.icon {
+    border: 0;
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 4px;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+label {
+    margin-right: 16px;
+}
+
+div.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: -1001; /* Sit on top */
+    left: 0;
+    top: 0;
+    opacity: 0.3;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+    div.overlay.sun {
+        background: url(/img/sun.jpg) no-repeat center center fixed;
+    }
+
+    div.overlay.mist {
+        background: url(/img/mist.jpg) no-repeat center center fixed;
+    }
+
+    div.overlay.rain {
+        background: url(/img/rain.jpg) no-repeat center center fixed;
+    }
+
+    div.overlay.cloud {
+        background: url(/img/cloud.jpg) no-repeat center center fixed;
+    }
+
+    div.overlay.snow {
+        background: url(/img/snow.jpg) no-repeat center center fixed;
+    }
+
+div.header {
+}
+
+div.brand {
+    font-size: 3em;
+    padding: 32px;
+}
+
+div.content {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+table {
+    width: 100%;
+}
+
+    table th {
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+    table tr {
+        margin-bottom: 8px;
+    }
+
+    table td {
+        width: 25%;
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+div.section {
+    margin-bottom: 32px;
+}
+
+    div.section .section-header {
+        padding-bottom: 16px;
+        font-size: 2em;
+    }
